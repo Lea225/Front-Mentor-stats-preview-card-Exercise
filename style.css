@@ -1,0 +1,71 @@
+.attribution { font-size: 11px; text-align: center;color: white; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+span{
+    color: hsl(277, 64%, 61%);
+}
+img {
+    position: relative;
+  }
+ .color-overlay{
+    background-color:hsla(277, 64%, 61%, 0.5) ;
+    padding: 223px 270px;
+    position: absolute;
+    top: 70px;
+    right: 70px;
+ } 
+body{
+    background-color: hsl(233, 47%, 7%);
+    font-size: 15px;
+    margin: 70px;
+}
+.text{
+    margin: 50px;
+}
+.card{
+    justify-content: space-between;
+    background-color: hsl(244, 38%, 16%);
+    display: flex;
+    font-family:  'Lexend Deca',sans-serif;
+}
+h1,h2{
+    font-family: 'Inter',sans-serif;
+    color: hsl(0, 0%, 100%);
+}
+.card-p{
+    color: hsla(0, 0%, 100%, 0.75);
+}
+.contain{
+    display: flex;
+}
+.contain-p{
+    color: hsla(0, 0%, 100%, 0.6);
+    font-size: 0.5em;
+    margin-right: 60px;
+    font-size: 400;
+}
+@media screen and (max-width:996px) {
+    .card{
+        flex-direction: column-reverse;
+        text-align: center;
+        margin: 50px;
+    }
+.contain{
+    display: block;
+}
+.color-overlay{
+    padding: 124px 150px;
+    margin-right: 50px;
+}
+.card-p{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: inherit;
+}
+.contain-p{
+    margin:auto;
+}
+img{
+    margin: 0;
+}
+}
